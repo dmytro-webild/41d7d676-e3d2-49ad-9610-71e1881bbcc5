@@ -52,7 +52,7 @@ export default function LandingPage() {
         { name: "Layla N.", handle: "@layla", testimonial: "The best detailing experience I've ever had for my vehicle.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/you-are-special-rare-unique-different_53876-133683.jpg" },
         { name: "Fahad M.", handle: "@fahad", testimonial: "Consistently great results and friendly service every time.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-looking-car_23-2150171223.jpg" }
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg?_wi=1"
       imageAlt="Professional car cleaning service"
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/man-washing-car-carwash-station-wearing-orange-vest_651396-2008.jpg", alt: "Man washing car" },
@@ -98,7 +98,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         { id: "basic", title: "Express Wash", price: "50 SAR", period: "Per Wash", features: ["Exterior Foam Wash", "Wheel Rinse", "Air Dry"], button: { text: "Book Now", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-spraying-powder-paint_52683-98216.jpg" },
-        { id: "pro", title: "Full Detail", price: "250 SAR", period: "Per Session", features: ["Full Exterior Wash", "Vacuuming", "Dashboard Polish", "Engine Bay Clean"], button: { text: "Book Now", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg" },
+        { id: "pro", title: "Full Detail", price: "250 SAR", period: "Per Session", features: ["Full Exterior Wash", "Vacuuming", "Dashboard Polish", "Engine Bay Clean"], button: { text: "Book Now", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg?_wi=2" },
         { id: "prem", title: "Showroom Shine", price: "450 SAR", period: "Per Session", features: ["Everything in Pro", "Clay Bar Treatment", "Wax Application", "Leather Condition"], button: { text: "Book Now", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-fixing-car_23-2149385729.jpg" }
       ]}
       title="Select Your Wash"
@@ -150,7 +150,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Everything you need to know about our service process."
       faqsAnimation="slide-up"
-      imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg?_wi=1"
     />
   </div>
 
@@ -164,7 +164,7 @@ export default function LandingPage() {
         { name: "email", type: "email", placeholder: "Email Address", required: true }
       ]}
       textarea={{ name: "message", placeholder: "Your message here...", rows: 4, required: true }}
-      imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg?_wi=2"
     />
   </div>
 
