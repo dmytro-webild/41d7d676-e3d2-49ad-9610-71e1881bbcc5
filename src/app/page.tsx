@@ -93,7 +93,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-looking-car_23-2150171223.jpg",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg?_wi=1"
       imageAlt="Professional car cleaning service"
       avatars={[
         {
@@ -224,7 +224,7 @@ export default function LandingPage() {
             text: "Book Now",
             href: "#",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg?_wi=2",
           imageAlt: "Front view man spraying powder paint",
         },
         {
@@ -349,7 +349,7 @@ export default function LandingPage() {
       title="Frequently Asked Questions"
       description="Everything you need to know about our service process."
       faqsAnimation="slide-up"
-      imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg?_wi=1"
     />
   </div>
 
@@ -378,7 +378,7 @@ export default function LandingPage() {
         rows: 4,
         required: true,
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg?_wi=2"
     />
   </div>
 
