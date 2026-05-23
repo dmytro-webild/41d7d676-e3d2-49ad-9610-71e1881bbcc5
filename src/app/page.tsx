@@ -28,7 +28,7 @@ export default function LandingPage() {
         headingFontWeight="light"
     >
       <ReactLenis root>
-  <div id="nav" data-section="nav">
+  <div dir="rtl" id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
         { name: "الرئيسية", id: "home" },
@@ -41,7 +41,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="hero" data-section="hero">
+  <div dir="rtl" id="hero" data-section="hero">
       <HeroOverlayTestimonial
       title="ديلي ووش: تألق في كل تفصيل"
       description="خدمات غسيل وتنظيف سيارات متميزة مصممة للسائق العصري. نحن نتعامل مع سيارتك كأنها سيارتنا، لضمان لمعان لا مثيل له في كل مرة."
@@ -65,7 +65,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="about" data-section="about">
+  <div dir="rtl" id="about" data-section="about">
       <InlineImageSplitTextAbout
       useInvertedBackground={true}
       heading={[
@@ -76,7 +76,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="services" data-section="services">
+  <div dir="rtl" id="services" data-section="services">
       <FeatureCardTwentyFour
       animationType="slide-up"
       textboxLayout="split"
@@ -91,7 +91,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="packages" data-section="packages">
+  <div dir="rtl" id="packages" data-section="packages">
       <PricingCardNine
       animationType="slide-up"
       textboxLayout="default"
@@ -106,7 +106,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="stats" data-section="stats">
+  <div dir="rtl" id="stats" data-section="stats">
       <MetricCardFourteen
       useInvertedBackground={false}
       title="تأثيرنا بالأرقام"
@@ -120,7 +120,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="testimonials" data-section="testimonials">
+  <div dir="rtl" id="testimonials" data-section="testimonials">
       <TestimonialCardTwo
       animationType="slide-up"
       textboxLayout="default"
@@ -137,7 +137,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="faq" data-section="faq">
+  <div dir="rtl" id="faq" data-section="faq">
       <FaqSplitMedia
       textboxLayout="split"
       useInvertedBackground={false}
@@ -154,7 +154,7 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="contact" data-section="contact">
+  <div dir="rtl" id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={true}
       title="احجز غسلتك اليوم"
@@ -168,13 +168,14 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="footer" data-section="footer">
+  <div dir="rtl" id="footer" data-section="footer">
       <FooterBaseReveal
       logoText="ديلي ووش"
       columns={[
         { title: "الخدمات", items: [ { label: "خارجي", href: "#services" }, { label: "داخلي", href: "#services" }, { label: "تفاصيل", href: "#services" } ] },
         { title: "الدعم", items: [ { label: "الأسئلة", href: "#faq" }, { label: "اتصل بنا", href: "#contact" }, { label: "الخصوصية", href: "#" } ] }
       ]}
+      copyrightText="© 2025 | ديلي ووش"
     />
   </div>
       </ReactLenis>
