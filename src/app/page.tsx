@@ -31,37 +31,37 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        { name: "Home", id: "home" },
-        { name: "About", id: "about" },
-        { name: "Services", id: "services" },
-        { name: "Contact", id: "contact" },
+        { name: "الرئيسية", id: "home" },
+        { name: "من نحن", id: "about" },
+        { name: "خدماتنا", id: "services" },
+        { name: "اتصل بنا", id: "contact" },
       ]}
-      brandName="Daily Wash"
-      button={{ text: "Book Now", href: "#contact" }}
+      brandName="ديلي ووش"
+      button={{ text: "احجز الآن", href: "#contact" }}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroOverlayTestimonial
-      title="Daily Wash: Brilliance in Every Detail"
-      description="Premium car detailing and washing services designed for the modern driver. We treat your vehicle like our own, ensuring a showroom shine every time."
+      title="ديلي ووش: تألق في كل تفصيل"
+      description="خدمات غسيل وتنظيف سيارات متميزة مصممة للسائق العصري. نحن نتعامل مع سيارتك كأنها سيارتنا، لضمان لمعان لا مثيل له في كل مرة."
       testimonials={[
-        { name: "Ahmed Ali", handle: "@ahmed", testimonial: "Excellent service, my car looked brand new after the premium wash.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/man-driving-car-positive-emotions-bright-daylight-interior_169016-68621.jpg" },
-        { name: "Sara Khalid", handle: "@sara", testimonial: "Very professional staff and top-tier cleaning quality.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-man-posing-near-his-modern-car_651396-2811.jpg" },
-        { name: "Omar Said", handle: "@omar", testimonial: "Fast, affordable, and extremely thorough. Highly recommended.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-business-woman-choosing-car_1303-22398.jpg" },
-        { name: "Layla N.", handle: "@layla", testimonial: "The best detailing experience I've ever had for my vehicle.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/you-are-special-rare-unique-different_53876-133683.jpg" },
-        { name: "Fahad M.", handle: "@fahad", testimonial: "Consistently great results and friendly service every time.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-looking-car_23-2150171223.jpg" }
+        { name: "أحمد علي", handle: "@ahmed", testimonial: "خدمة ممتازة، بدت سيارتي وكأنها جديدة تماماً بعد الغسيل الممتاز.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/man-driving-car-positive-emotions-bright-daylight-interior_169016-68621.jpg" },
+        { name: "سارة خالد", handle: "@sara", testimonial: "طاقم عمل محترف جداً وجودة تنظيف من الدرجة الأولى.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-man-posing-near-his-modern-car_651396-2811.jpg" },
+        { name: "عمر سعيد", handle: "@omar", testimonial: "سريع، بأسعار معقولة، وشامل للغاية. أنصح به بشدة.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-business-woman-choosing-car_1303-22398.jpg" },
+        { name: "ليلى ن.", handle: "@layla", testimonial: "أفضل تجربة تنظيف وتلميع حصلت عليها لسيارتي.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/you-are-special-rare-unique-different_53876-133683.jpg" },
+        { name: "فهد م.", handle: "@fahad", testimonial: "نتائج رائعة باستمرار وخدمة ودودة في كل مرة.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-looking-car_23-2150171223.jpg" }
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg?_wi=1"
-      imageAlt="Professional car cleaning service"
+      imageAlt="خدمة احترافية لتنظيف السيارات"
       avatars={[
-        { src: "http://img.b2bpic.net/free-photo/man-washing-car-carwash-station-wearing-orange-vest_651396-2008.jpg", alt: "Man washing car" },
-        { src: "http://img.b2bpic.net/free-photo/beautiful-car-washing-service_23-2149212212.jpg", alt: "Beautiful car" },
-        { src: "http://img.b2bpic.net/free-photo/male-car-washer-cleaning-auto-supervision-owner_651396-3547.jpg", alt: "Male car washer" },
-        { src: "http://img.b2bpic.net/free-photo/young-man-washing-car-carwash-station-outdoor_651396-2787.jpg", alt: "Young man washing car" },
-        { src: "http://img.b2bpic.net/free-photo/high-angle-man-driving_23-2148514903.jpg", alt: "High angle man driving" }
+        { src: "http://img.b2bpic.net/free-photo/man-washing-car-carwash-station-wearing-orange-vest_651396-2008.jpg", alt: "رجل يغسل السيارة" },
+        { src: "http://img.b2bpic.net/free-photo/beautiful-car-washing-service_23-2149212212.jpg", alt: "سيارة جميلة" },
+        { src: "http://img.b2bpic.net/free-photo/male-car-washer-cleaning-auto-supervision-owner_651396-3547.jpg", alt: "منظف سيارات" },
+        { src: "http://img.b2bpic.net/free-photo/young-man-washing-car-carwash-station-outdoor_651396-2787.jpg", alt: "شاب يغسل السيارة" },
+        { src: "http://img.b2bpic.net/free-photo/high-angle-man-driving_23-2148514903.jpg", alt: "منظور علوي للقيادة" }
       ]}
-      avatarText="Trusted by 15,000+ drivers"
+      avatarText="موثوق من قبل أكثر من 15,000 سائق"
     />
   </div>
 
@@ -69,10 +69,10 @@ export default function LandingPage() {
       <InlineImageSplitTextAbout
       useInvertedBackground={true}
       heading={[
-        { type: "text", content: "Our Passion for Perfection" },
-        { type: "image", src: "http://img.b2bpic.net/free-photo/medium-shot-man-fixing-car_23-2149385729.jpg", alt: "Our team at work" }
+        { type: "text", content: "شغفنا بالكمال" },
+        { type: "image", src: "http://img.b2bpic.net/free-photo/medium-shot-man-fixing-car_23-2149385729.jpg", alt: "فريقنا أثناء العمل" }
       ]}
-      buttons={[{ text: "Learn More", href: "#" }]}
+      buttons={[{ text: "اعرف المزيد", href: "#" }]}
     />
   </div>
 
@@ -82,12 +82,12 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       features={[
-        { id: "f1", title: "Exterior Wash", author: "Pro Team", description: "High-pressure wash and eco-friendly soap for a flawless finish.", tags: ["Cleaning"], imageSrc: "http://img.b2bpic.net/free-photo/man-s-hand-is-cleaning-waxing-car_1150-6629.jpg" },
-        { id: "f2", title: "Interior Deep Clean", author: "Detailers", description: "Comprehensive vacuuming and steam cleaning for a fresh cabin.", tags: ["Detailing"], imageSrc: "http://img.b2bpic.net/free-photo/still-life-cleaning-tools_23-2150552297.jpg" },
-        { id: "f3", title: "Wax & Polish", author: "Specialists", description: "Hard-shell wax protection for long-lasting showroom brilliance.", tags: ["Protection"], imageSrc: "http://img.b2bpic.net/free-photo/man-polish-car-garage_1157-26060.jpg" }
+        { id: "f1", title: "غسيل خارجي", author: "فريقنا المحترف", description: "غسيل بضغط عالٍ وصابون صديق للبيئة لنهاية لا تشوبها شائبة.", tags: ["تنظيف"], imageSrc: "http://img.b2bpic.net/free-photo/man-s-hand-is-cleaning-waxing-car_1150-6629.jpg" },
+        { id: "f2", title: "تنظيف داخلي عميق", author: "متخصصو التفاصيل", description: "تنظيف شامل بالمكنسة الكهربائية والبخار لمقصورة منعشة.", tags: ["عناية"], imageSrc: "http://img.b2bpic.net/free-photo/still-life-cleaning-tools_23-2150552297.jpg" },
+        { id: "f3", title: "تلميع وشمع", author: "الخبراء", description: "طبقة شمع واقية لحماية تدوم ولمعان يشبه صالات العرض.", tags: ["حماية"], imageSrc: "http://img.b2bpic.net/free-photo/man-polish-car-garage_1157-26060.jpg" }
       ]}
-      title="Comprehensive Care"
-      description="Our signature services keep your vehicle pristine, inside and out."
+      title="عناية شاملة"
+      description="خدماتنا المتميزة تحافظ على سيارتك في أفضل حالة، من الداخل والخارج."
     />
   </div>
 
@@ -97,24 +97,24 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       plans={[
-        { id: "basic", title: "Express Wash", price: "50 SAR", period: "Per Wash", features: ["Exterior Foam Wash", "Wheel Rinse", "Air Dry"], button: { text: "Book Now", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-spraying-powder-paint_52683-98216.jpg" },
-        { id: "pro", title: "Full Detail", price: "250 SAR", period: "Per Session", features: ["Full Exterior Wash", "Vacuuming", "Dashboard Polish", "Engine Bay Clean"], button: { text: "Book Now", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg?_wi=2" },
-        { id: "prem", title: "Showroom Shine", price: "450 SAR", period: "Per Session", features: ["Everything in Pro", "Clay Bar Treatment", "Wax Application", "Leather Condition"], button: { text: "Book Now", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-fixing-car_23-2149385729.jpg" }
+        { id: "basic", title: "غسيل سريع", price: "50 ر.س", period: "للغسلة", features: ["غسيل خارجي بالرغوة", "شطف العجلات", "تجفيف بالهواء"], button: { text: "احجز الآن", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/front-view-man-spraying-powder-paint_52683-98216.jpg" },
+        { id: "pro", title: "عناية كاملة", price: "250 ر.س", period: "للجلسة", features: ["غسيل خارجي كامل", "تنظيف بالمكنسة", "تلميع الطبلون", "تنظيف المحرك"], button: { text: "احجز الآن", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/young-groomed-man-is-washing-his-own-car-car-washing-station_613910-21477.jpg?_wi=2" },
+        { id: "prem", title: "تألق صالات العرض", price: "450 ر.س", period: "للجلسة", features: ["كل ما في الباقة الكاملة", "علاج الطين", "وضع الشمع", "تكييف الجلد"], button: { text: "احجز الآن", href: "#" }, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-fixing-car_23-2149385729.jpg" }
       ]}
-      title="Select Your Wash"
-      description="Flexible plans for any budget and vehicle need."
+      title="اختر غسلتك"
+      description="خطط مرنة تناسب جميع الميزانيات واحتياجات المركبات."
     />
   </div>
 
   <div id="stats" data-section="stats">
       <MetricCardFourteen
       useInvertedBackground={false}
-      title="Our Impact in Numbers"
-      tag="Trusted Quality"
+      title="تأثيرنا بالأرقام"
+      tag="جودة موثوقة"
       metrics={[
-        { id: "m1", value: "15,000+", description: "Cars washed this year" },
-        { id: "m2", value: "98%", description: "Customer satisfaction rate" },
-        { id: "m3", value: "12", description: "Years of expertise" }
+        { id: "m1", value: "15,000+", description: "سيارة تم غسلها هذا العام" },
+        { id: "m2", value: "98%", description: "نسبة رضا العملاء" },
+        { id: "m3", value: "12", description: "سنة من الخبرة" }
       ]}
       metricsAnimation="slide-up"
     />
@@ -126,14 +126,14 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       testimonials={[
-        { id: "1", name: "Sarah J.", role: "Client", testimonial: "Simply the best car wash in the city, really reliable.", imageSrc: "http://img.b2bpic.net/free-photo/woman-enjoying-her-financially-independence-while-buying-car_23-2149434340.jpg" },
-        { id: "2", name: "Mark D.", role: "Loyal Customer", testimonial: "Staff is extremely professional and polite.", imageSrc: "http://img.b2bpic.net/free-photo/business-people-collaborating-close-up_23-2148336894.jpg" },
-        { id: "3", name: "Emily V.", role: "Client", testimonial: "My SUV looks like it just came off the assembly line.", imageSrc: "http://img.b2bpic.net/free-photo/business-woman-looking-auto-mobile-car-showroom_1303-21381.jpg" },
-        { id: "4", name: "John R.", role: "Member", testimonial: "Fast service and great value for the high quality provided.", imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-woman-holding-speech-bubble-with-various-type-emoticons_23-2147849477.jpg" },
-        { id: "5", name: "Alice K.", role: "Client", testimonial: "I never go anywhere else, the service is perfection.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-customer-with-business-person-car-dealership_23-2149117135.jpg" }
+        { id: "1", name: "سارة ج.", role: "عميلة", testimonial: "ببساطة أفضل مغسلة سيارات في المدينة، موثوقة حقاً.", imageSrc: "http://img.b2bpic.net/free-photo/woman-enjoying-her-financially-independence-while-buying-car_23-2149434340.jpg" },
+        { id: "2", name: "مارك د.", role: "عميل وفي", testimonial: "طاقم العمل محترف للغاية ومهذب.", imageSrc: "http://img.b2bpic.net/free-photo/business-people-collaborating-close-up_23-2148336894.jpg" },
+        { id: "3", name: "إميلي ف.", role: "عميلة", testimonial: "سيارتي تبدو وكأنها خرجت للتو من خط التجميع.", imageSrc: "http://img.b2bpic.net/free-photo/business-woman-looking-auto-mobile-car-showroom_1303-21381.jpg" },
+        { id: "4", name: "جون ر.", role: "عضو", testimonial: "خدمة سريعة وقيمة رائعة للجودة العالية المقدمة.", imageSrc: "http://img.b2bpic.net/free-photo/smiling-man-woman-holding-speech-bubble-with-various-type-emoticons_23-2147849477.jpg" },
+        { id: "5", name: "أليس ك.", role: "عميلة", testimonial: "لن أذهب لأي مكان آخر، الخدمة هي الكمال بعينه.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-customer-with-business-person-car-dealership_23-2149117135.jpg" }
       ]}
-      title="What Our Drivers Say"
-      description="Hear directly from those who trust Daily Wash with their pride and joy."
+      title="ماذا يقول سائقونا"
+      description="استمع مباشرة ممن يثقون في ديلي ووش مع مركباتهم العزيزة."
     />
   </div>
 
@@ -142,13 +142,13 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       faqs={[
-        { id: "q1", title: "Do I need an appointment?", content: "While we welcome walk-ins, appointments are recommended to ensure prompt service." },
-        { id: "q2", title: "Which products do you use?", content: "We use eco-friendly, high-performance cleaning products to protect your paint and the environment." },
-        { id: "q3", title: "How long does a detailing take?", content: "Depending on the package, detailing can take anywhere from 1 to 4 hours." }
+        { id: "q1", title: "هل أحتاج إلى موعد؟", content: "نحن نرحب بالزوار، لكن يوصى بالحجز لضمان خدمة سريعة." },
+        { id: "q2", title: "ما هي المنتجات التي تستخدمونها؟", content: "نستخدم منتجات تنظيف صديقة للبيئة وعالية الأداء لحماية طلاء سيارتك والبيئة." },
+        { id: "q3", title: "كم تستغرق عملية التنظيف؟", content: "تعتمد المدة على الباقة، وعادة ما تستغرق ما بين ساعة إلى 4 ساعات." }
       ]}
       mediaAnimation="slide-up"
-      title="Frequently Asked Questions"
-      description="Everything you need to know about our service process."
+      title="أسئلة متكررة"
+      description="كل ما تحتاج لمعرفته حول عملية خدمتنا."
       faqsAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg?_wi=1"
     />
@@ -157,23 +157,23 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={true}
-      title="Book Your Wash Today"
-      description="Contact us to schedule your service or ask any questions."
+      title="احجز غسلتك اليوم"
+      description="اتصل بنا لحجز موعدك أو طرح أي أسئلة."
       inputs={[
-        { name: "name", type: "text", placeholder: "Full Name", required: true },
-        { name: "email", type: "email", placeholder: "Email Address", required: true }
+        { name: "name", type: "text", placeholder: "الاسم الكامل", required: true },
+        { name: "email", type: "email", placeholder: "البريد الإلكتروني", required: true }
       ]}
-      textarea={{ name: "message", placeholder: "Your message here...", rows: 4, required: true }}
+      textarea={{ name: "message", placeholder: "رسالتك هنا...", rows: 4, required: true }}
       imageSrc="http://img.b2bpic.net/free-photo/auto-mechanic-wearing-face-mask-gloves-while-using-computer-workshop-s-office_637285-9821.jpg?_wi=2"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterBaseReveal
-      logoText="Daily Wash"
+      logoText="ديلي ووش"
       columns={[
-        { title: "Services", items: [ { label: "Exterior", href: "#services" }, { label: "Interior", href: "#services" }, { label: "Detailing", href: "#services" } ] },
-        { title: "Support", items: [ { label: "FAQ", href: "#faq" }, { label: "Contact", href: "#contact" }, { label: "Privacy", href: "#" } ] }
+        { title: "الخدمات", items: [ { label: "خارجي", href: "#services" }, { label: "داخلي", href: "#services" }, { label: "تفاصيل", href: "#services" } ] },
+        { title: "الدعم", items: [ { label: "الأسئلة", href: "#faq" }, { label: "اتصل بنا", href: "#contact" }, { label: "الخصوصية", href: "#" } ] }
       ]}
     />
   </div>
